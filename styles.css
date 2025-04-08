@@ -1,0 +1,21 @@
+.focus-reader-highlight {
+    transition: all 0.3s ease;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    background-color: white !important;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.focus-reader-highlight p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.focus-reader-overlay {
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+} 
